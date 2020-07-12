@@ -130,9 +130,9 @@ export default function Home() {
                   <br /> <br />
                   <br />
                 </p>
-                {/* <Link to="voomo"> */}
-                <a className="button">One Smartcontract to rule them all</a>
-                {/* </Link> */}
+                <Link href="/voomo">
+                  <a className="button">One Smartcontract to rule them all</a>
+                </Link>
               </div>
             </div>
           </div>
