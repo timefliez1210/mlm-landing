@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -11,20 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
-        <section className="header">
-          <div className="content-holder">
-            <h1>
-              You are spending hours a day online?
-              <br />
-              <br />
-              But still don't earn money? <br />
-              You are doing it wrong.
-            </h1>
-            <a className="button" href="#content">
-              Why?
-            </a>
-          </div>
-        </section>
+        <Header />
         <section className="content" id="content">
           <div className="wrapper">
             <h1>Let's talk about now and the future</h1>
@@ -131,7 +119,7 @@ export default function Home() {
                   <br />
                 </p>
                 <Link href="/voomo">
-                  <a className="button">One Smartcontract to rule them all</a>
+                  <a className="button">Let's start</a>
                 </Link>
               </div>
             </div>
@@ -140,35 +128,13 @@ export default function Home() {
       </body>
 
       <style jsx>{`
-        .header {
-          min-height: 100vh;
-          display: flex;
-          align-content: center center;
-
-          background-image: url("assets/img/blockchain-banner.jpg");
-          background-color: #cccccc;
-          background-position: bottom left;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-
         .content {
           min-height: 100vh;
           display: flex;
           align-content: center center;
           padding: 100px 15px;
-        }
-
-        .content-holder {
-          width: 95vw;
-          max-width: 1080px;
-          margin: auto auto;
+          background-color: #07051a;
           color: white;
-          background: rgba(0, 0, 0, 0.7);
-          border-radius: 10px;
-          box-shadow: 10px 10px 20px #000000, -10px -10px 20px #000000;
-          text-align: center;
-          padding: 50px 5px;
         }
 
         .wrapper {
@@ -193,7 +159,7 @@ export default function Home() {
         }
 
         .button {
-          background-color: black;
+          background-color: #789bc3;
           color: white;
           padding: 20px 30px;
           border-radius: 15px;
@@ -210,13 +176,16 @@ export default function Home() {
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
           padding: 20px;
           border-radius: 40px;
-
+          background: #07051a;
+          box-shadow: 18px 18px 36px #050311, -18px -18px 36px #090723;
           position: relative;
           z-index: 0;
         }
         .display-imgage {
           height: 100%;
           align-self: center;
+          width: auto;
+          margin: auto auto;
           z-index: 0;
           border-radius: 40px;
           box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
@@ -235,6 +204,8 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
+          width: 100vw;
+          overflow-x: hidden;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

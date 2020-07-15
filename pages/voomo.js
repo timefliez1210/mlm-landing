@@ -3,6 +3,9 @@ import Head from "next/head";
 const Voomo = () => {
   return (
     <div>
+      <Head>
+        <title></title>
+      </Head>
       <section className="content" id="content">
         <div className="wrapper">
           <h1>
@@ -13,10 +16,7 @@ const Voomo = () => {
               <img width="90%" src="./assets/img/risk_free.jpg" />
             </div>
             <div>
-              <h2>
-                The year 2020, covid-19 and how they (should) change our view of
-                the world.
-              </h2>
+              <h2>How to start in the world of Blockchain?</h2>
               <p>
                 Last year was a normal year, most people had a permanent job,
                 worked “9-to-5”, came home, paid the bills and were happy if
