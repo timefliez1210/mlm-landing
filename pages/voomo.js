@@ -17,13 +17,7 @@ const Voomo = () => {
             </div>
             <div>
               <h2>How to start in the world of Blockchain?</h2>
-              <p>
-                Last year was a normal year, most people had a permanent job,
-                worked “9-to-5”, came home, paid the bills and were happy if
-                something was left over. Many dreamed of an independent life,
-                independent of location and in a modern way, but never put it
-                into practice.
-              </p>
+              <p>First of all, you will</p>
               <h2>But what is happening at the moment?</h2>
               <p>
                 The current situation shows us that the system that we are
