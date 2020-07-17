@@ -113,10 +113,36 @@ const ContentCard = () => {
         </div>
         <div className="card">
           <div>
-            <img width="90%" src="./assets/img/risk_free.jpg" />
+            <img width="90%" src="./assets/img/what-is-ether.png" />
           </div>
           <div>
             <h2>So how do we start?</h2>
+            <p>
+              In case you already had your first experiences with
+              cryptocurrencies and the blockchain itself, especially if you know
+              how so called DApp Browsers work, you should click here to skip
+              the introduction to them and directly start with the real deal!
+              <br />
+              <br />
+              And if not: That's not a big deal! I will give you a short
+              introduction into the Blockchain ecosystem, especially Ethereum
+              and it's native currency Ether! So we can afterwards go through
+              really good DeFi Products and other profitable contracts.
+            </p>
+            <br />
+            <br />
+
+            <a className="button" href="#letsgo">
+              <b>Direct Start</b>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img width="90%" src="./assets/img/buy-crypto.jpg" />
+          </div>
+          <div>
+            <h2>How to buy crypto?</h2>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -126,8 +152,108 @@ const ContentCard = () => {
             <br />
             <br />
 
-            <a className="button" href="#content">
-              Direct Start
+            <a
+              className="button"
+              href="https://www.coinbase.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="External Link to Coinbase Exchange"
+            >
+              <b>Coinbase Exchange</b>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img width="90%" src="./assets/img/crypto-wallet.png" />
+          </div>
+          <div>
+            <h2>Your wallet - your money</h2>
+            <p>
+              In case you already had your first experiences with
+              cryptocurrencies and the blockchain itself, especially if you know
+              how so called DApp Browsers work, you should click here to skip
+              the introduction to them and directly start with the real deal!
+            </p>
+            <br />
+            <br />
+
+            <a
+              className="button"
+              href="https://app.voomo.io/a/42/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title=""
+            >
+              <b> Metamask</b>
+            </a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <a
+              className="button"
+              href="https://app.voomo.io/a/42/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title=""
+            >
+              <b>Trust Wallet</b>
+            </a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <a
+              className="button"
+              href="https://app.voomo.io/a/42/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title=""
+            >
+              <b> Coinbase Wallet</b>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img width="90%" src="./assets/img/Dapp-browser.jpg" />
+          </div>
+          <div>
+            <h2>The DApp Browser</h2>
+            <p>
+              In case you already had your first experiences with
+              cryptocurrencies and the blockchain itself, especially if you know
+              how so called DApp Browsers work, you should click here to skip
+              the introduction to them and directly start with the real deal!
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
+        <div className="card" id="letsgo">
+          <div>
+            <img width="90%" src="./assets/img/risk_free.jpg" />
+          </div>
+          <div>
+            <h2>And let's get started!</h2>
+            <p>
+              In case you already had your first experiences with
+              cryptocurrencies and the blockchain itself, especially if you know
+              how so called DApp Browsers work, you should click here to skip
+              the introduction to them and directly start with the real deal!
+            </p>
+            <br />
+            <br />
+
+            <a
+              className="button"
+              href="https://app.voomo.io/a/42/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="The Smartcontract that will earn you money"
+            >
+              <b>Register</b>
             </a>
           </div>
         </div>
@@ -139,7 +265,7 @@ const ContentCard = () => {
           width: 95vw;
           max-width: 1080px;
           margin: 65vh auto;
-          background-color: rgba(0, 0, 0, 0.6);
+          background-color: rgba(0, 0, 0, 0.8);
           color: white;
           border-radius: 10px;
         }
@@ -167,6 +293,13 @@ const ContentCard = () => {
           z-index: 0;
           border-radius: 40px;
           box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
+        }
+        .button {
+          border: 1px solid #c90859;
+          color: #c90859;
+          text-decoration: none;
+          padding: 20px 50px;
+          background: black;
         }
       `}</style>
     </div>
