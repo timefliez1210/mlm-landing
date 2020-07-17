@@ -4,7 +4,9 @@ const Voomo = () => {
   return (
     <div>
       <Head>
-        <title></title>
+        <title>
+          Voomo - The Smart Contract which has the power to change your life.
+        </title>
       </Head>
       <section className="content" id="content">
         <div className="wrapper">
@@ -16,17 +18,104 @@ const Voomo = () => {
               <img width="90%" src="./assets/img/risk_free.jpg" />
             </div>
             <div>
-              <h2>How to start in the world of Blockchain?</h2>
-              <p>First of all, you will</p>
-              <h2>But what is happening at the moment?</h2>
+              <h2>So how do we start?</h2>
               <p>
-                The current situation shows us that the system that we are
-                taught from an early age has its limits, we are forced to either
-                endure and persevere or finally to exhaust the possibilities
-                that our time gives us, believe it or not, it are more than
-                enough people who still make their money the easiest way
-                regardless of covid-19.
+                In case you already had your first experiences with
+                cryptocurrencies and the blockchain itself, especially if you
+                know how so called DApp Browsers work, you should click here to
+                skip the introduction to them and directly start with the real
+                deal!
               </p>
+              <br />
+              <br />
+
+              <a className="button" href="#content">
+                Direct Start
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img width="90%" src="./assets/img/risk_free.jpg" />
+            </div>
+            <div>
+              <h2>How to buy crypto?</h2>
+              <p>
+                In case you already had your first experiences with
+                cryptocurrencies and the blockchain itself, especially if you
+                know how so called DApp Browsers work, you should click here to
+                skip the introduction to them and directly start with the real
+                deal!
+              </p>
+              <br />
+              <br />
+
+              <a className="button" href="#content">
+                Direct Start
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img width="90%" src="./assets/img/risk_free.jpg" />
+            </div>
+            <div>
+              <h2>Your wallet - your money</h2>
+              <p>
+                In case you already had your first experiences with
+                cryptocurrencies and the blockchain itself, especially if you
+                know how so called DApp Browsers work, you should click here to
+                skip the introduction to them and directly start with the real
+                deal!
+              </p>
+              <br />
+              <br />
+
+              <a className="button" href="#content">
+                Direct Start
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img width="90%" src="./assets/img/risk_free.jpg" />
+            </div>
+            <div>
+              <h2>The DApp Browser</h2>
+              <p>
+                In case you already had your first experiences with
+                cryptocurrencies and the blockchain itself, especially if you
+                know how so called DApp Browsers work, you should click here to
+                skip the introduction to them and directly start with the real
+                deal!
+              </p>
+              <br />
+              <br />
+
+              <a className="button" href="#content">
+                Direct Start
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img width="90%" src="./assets/img/risk_free.jpg" />
+            </div>
+            <div>
+              <h2>And let's get started!</h2>
+              <p>
+                In case you already had your first experiences with
+                cryptocurrencies and the blockchain itself, especially if you
+                know how so called DApp Browsers work, you should click here to
+                skip the introduction to them and directly start with the real
+                deal!
+              </p>
+              <br />
+              <br />
+
+              <a className="button" href="#content">
+                Register
+              </a>
             </div>
           </div>
         </div>
@@ -69,6 +158,17 @@ const Voomo = () => {
           border-radius: 40px;
           box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
         }
+        .button {
+          background-color: #789bc3;
+          color: white;
+          padding: 20px 30px;
+          border-radius: 15px;
+          width: 300px;
+          margin: auto auto;
+          font-style: bold;
+          text-decoration: none;
+          font-size: 20px;
+        }
       `}</style>
       <style jsx global>{`
         html,
@@ -89,3 +189,21 @@ const Voomo = () => {
 };
 
 export default Voomo;
+
+{
+  /* <div className="content-holder">
+          <h1>
+            You are spending hours a day online?
+            <br />
+            <br />
+            But still don't earn money? <br />
+            You are doing it wrong.
+          </h1>
+          <br />
+          <br />
+          <br />
+          <a className="button" href="#content">
+            Let's get to it
+          </a>
+        </div> */
+}
