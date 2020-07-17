@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CustomForm from "../components/newsletter";
 
 const Voomo = () => {
   return (
@@ -9,116 +10,7 @@ const Voomo = () => {
         </title>
       </Head>
       <section className="content" id="content">
-        <div className="wrapper">
-          <h1>
-            Your chance to work independantly or to create a passive income
-          </h1>
-          <div className="card">
-            <div>
-              <img width="90%" src="./assets/img/risk_free.jpg" />
-            </div>
-            <div>
-              <h2>So how do we start?</h2>
-              <p>
-                In case you already had your first experiences with
-                cryptocurrencies and the blockchain itself, especially if you
-                know how so called DApp Browsers work, you should click here to
-                skip the introduction to them and directly start with the real
-                deal!
-              </p>
-              <br />
-              <br />
-
-              <a className="button" href="#content">
-                Direct Start
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div>
-              <img width="90%" src="./assets/img/risk_free.jpg" />
-            </div>
-            <div>
-              <h2>How to buy crypto?</h2>
-              <p>
-                In case you already had your first experiences with
-                cryptocurrencies and the blockchain itself, especially if you
-                know how so called DApp Browsers work, you should click here to
-                skip the introduction to them and directly start with the real
-                deal!
-              </p>
-              <br />
-              <br />
-
-              <a className="button" href="#content">
-                Direct Start
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div>
-              <img width="90%" src="./assets/img/risk_free.jpg" />
-            </div>
-            <div>
-              <h2>Your wallet - your money</h2>
-              <p>
-                In case you already had your first experiences with
-                cryptocurrencies and the blockchain itself, especially if you
-                know how so called DApp Browsers work, you should click here to
-                skip the introduction to them and directly start with the real
-                deal!
-              </p>
-              <br />
-              <br />
-
-              <a className="button" href="#content">
-                Direct Start
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div>
-              <img width="90%" src="./assets/img/risk_free.jpg" />
-            </div>
-            <div>
-              <h2>The DApp Browser</h2>
-              <p>
-                In case you already had your first experiences with
-                cryptocurrencies and the blockchain itself, especially if you
-                know how so called DApp Browsers work, you should click here to
-                skip the introduction to them and directly start with the real
-                deal!
-              </p>
-              <br />
-              <br />
-
-              <a className="button" href="#content">
-                Direct Start
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div>
-              <img width="90%" src="./assets/img/risk_free.jpg" />
-            </div>
-            <div>
-              <h2>And let's get started!</h2>
-              <p>
-                In case you already had your first experiences with
-                cryptocurrencies and the blockchain itself, especially if you
-                know how so called DApp Browsers work, you should click here to
-                skip the introduction to them and directly start with the real
-                deal!
-              </p>
-              <br />
-              <br />
-
-              <a className="button" href="#content">
-                Register
-              </a>
-            </div>
-          </div>
-        </div>
+        <CustomForm />
       </section>
       <style jsx>{`
         h1 {

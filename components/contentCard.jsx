@@ -3,16 +3,17 @@ const ContentCard = () => {
     <div>
       <section className="content" id="content">
         <h1>Let's talk about now and the future</h1>
-
+        <div className="divider"></div>
         <div className="card">
           <div>
-            <img width="80%" src="./assets/img/covid-19_corona-virus.jpg" />
+            <img width="90%" src="./assets/img/covid-19-changes.png" />
           </div>
           <div>
             <h2>
               The year 2020, covid-19 and how they (should) change our view of
               the world.
             </h2>
+            <div className="divider"></div>
             <p>
               Last year was a normal year, most people had a permanent job,
               worked “9-to-5”, came home, paid the bills and were happy if
@@ -21,6 +22,7 @@ const ContentCard = () => {
               practice.
             </p>
             <h2>But what is happening at the moment?</h2>
+            <div className="divider"></div>
             <p>
               The current situation shows us that the system that we are taught
               from an early age has its limits, we are forced to either endure
@@ -32,6 +34,7 @@ const ContentCard = () => {
         </div>
         <div className="card2">
           <h2>“That’s all very nice, but how do I do this?”</h2>
+          <div className="divider"></div>
           <p>
             Well, I won't lie here. It’s a long way ahead of you which will take
             a lot of dedication and discipline, sadly there is no
@@ -45,10 +48,11 @@ const ContentCard = () => {
         </div>
         <div className="card">
           <div className="display-image2">
-            <img src="./assets/img/ethereum.jpg" width="80%" />
+            <img src="./assets/img/ethereum.jpg" width="90%" />
           </div>
           <div>
             <h2>How to start:</h2>
+            <div className="divider"></div>
             <p>
               Last year was a normal year, most people had a permanent job,
               worked “9-to-5”, came home, paid the bills and were happy if
@@ -57,6 +61,7 @@ const ContentCard = () => {
               practice.
             </p>
             <h2>The exciting new world</h2>
+            <div className="divider"></div>
             <p>
               The current situation shows us that the system that we are taught
               from an early age has its limits, we are forced to either endure
@@ -70,13 +75,15 @@ const ContentCard = () => {
           <h1>
             The Blockchain, Ethereum and how this exiting new world can help
           </h1>
+          <div className="divider"></div>
         </div>
         <div className="card">
           <div className="display-image2">
-            <img src="./assets/img/blockchain.jpg" width="80%" />
+            <img src="./assets/img/blockchain.jpg" width="90%" />
           </div>
           <div>
             <h2>So what is this Blockchain and how it can help me?</h2>
+            <div className="divider"></div>
             <p>
               I will try to keep it simple, you can imagine a Blockchain as a
               decentralized database. But the difference between a classical
@@ -110,6 +117,7 @@ const ContentCard = () => {
           <h1>
             Your chance to work independantly or to create a passive income
           </h1>
+          <div className="divider"></div>
         </div>
         <div className="card">
           <div>
@@ -117,6 +125,7 @@ const ContentCard = () => {
           </div>
           <div>
             <h2>So how do we start?</h2>
+            <div className="divider"></div>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -143,6 +152,7 @@ const ContentCard = () => {
           </div>
           <div>
             <h2>How to buy crypto?</h2>
+            <div className="divider"></div>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -169,6 +179,7 @@ const ContentCard = () => {
           </div>
           <div>
             <h2>Your wallet - your money</h2>
+            <div className="divider"></div>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -221,6 +232,7 @@ const ContentCard = () => {
           </div>
           <div>
             <h2>The DApp Browser</h2>
+            <div className="divider"></div>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -237,6 +249,7 @@ const ContentCard = () => {
           </div>
           <div>
             <h2>And let's get started!</h2>
+            <div className="divider"></div>
             <p>
               In case you already had your first experiences with
               cryptocurrencies and the blockchain itself, especially if you know
@@ -264,14 +277,23 @@ const ContentCard = () => {
           padding: 50px 0;
           width: 95vw;
           max-width: 1080px;
-          margin: 65vh auto;
+          margin: 30vh auto;
           background-color: rgba(0, 0, 0, 0.8);
           color: white;
           border-radius: 10px;
         }
-        h1 {
+        .divider {
+          height: 3px;
+          width: 40%;
+          background: #c90859;
+          margin: auto auto;
+        }
+        h1,
+        h2,
+        h3 {
           text-align: center;
         }
+
         .card {
           margin: 5vh auto;
           display: grid;
@@ -300,6 +322,13 @@ const ContentCard = () => {
           text-decoration: none;
           padding: 20px 50px;
           background: black;
+          transition: all 0.5s ease-in-out;
+        }
+
+        .button:hover {
+          background: #c90859;
+          color: black;
+          font-size: 18px;
         }
       `}</style>
     </div>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/header";
 import ContentCard from "../components/contentCard";
+import LandingBanner from "../components/landingBanner";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <body>
         <Header />
+        <LandingBanner />
         <ContentCard />
       </body>
 
