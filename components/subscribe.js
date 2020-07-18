@@ -1,5 +1,6 @@
 import jsonp from "jsonp";
 import PropTypes from "prop-types";
+import Link from "next/link";
 
 class Mailchimp extends React.Component {
   state = {};
@@ -69,7 +70,18 @@ class Mailchimp extends React.Component {
               <p style={styles.sendingMsg}>{messages.sending}</p>
             )}
             {status === "success" && (
-              <p style={styles.successMsg}>{messages.success}</p>
+              <p>
+                Thanks for Subscribing! <br />
+                Click here for you first piece of cake :)
+                <br />
+                <br />
+                <br />
+                <Link href="/voomo">
+                  <a title="safe income - forever" className="button">
+                    Let's go!
+                  </a>
+                </Link>
+              </p>
             )}
             {status === "duplicate" && (
               <p style={styles.duplicateMsg}>{messages.duplicate}</p>
@@ -119,6 +131,22 @@ class Mailchimp extends React.Component {
           }
 
           button:hover {
+            background: #c90859;
+            color: black;
+          }
+          .button {
+            border: 1px solid #c90859;
+            color: #c90859;
+            text-decoration: none;
+            padding: 20px 50px;
+            background: black;
+            transition: all 0.5s ease-in-out;
+            font-size: 22px;
+            width: 80%;
+            margin: auto auto;
+          }
+
+          .button:hover {
             background: #c90859;
             color: black;
           }

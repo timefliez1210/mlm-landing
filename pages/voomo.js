@@ -1,5 +1,6 @@
 import Head from "next/head";
-import CustomForm from "../components/newsletter";
+import Header from "../components/header";
+import SocialButtons from "../components/social";
 
 const Voomo = () => {
   return (
@@ -9,57 +10,14 @@ const Voomo = () => {
           Voomo - The Smart Contract which has the power to change your life.
         </title>
       </Head>
-      <section className="content" id="content">
-        <CustomForm />
-      </section>
+      <body>
+        <Header />
+        <h1>Hallo von Voomo!</h1>
+        <SocialButtons />
+      </body>
       <style jsx>{`
         h1 {
-          text-align: center;
-          font-size: 32px;
-        }
-
-        h2,
-        h3 {
-          text-align: left;
-        }
-        .content {
-          min-height: 100vh;
-          display: flex;
-          align-content: center center;
-          padding: 100px 15px;
-        }
-        .wrapper {
-          width: 95vw;
-          max-width: 1080px;
-          margin: 0 auto;
-        }
-        .card {
-          margin: 5vh auto;
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          padding: 20px;
-          border-radius: 40px;
-
-          position: relative;
-          z-index: 0;
-        }
-        .display-imgage {
-          height: 100%;
-          align-self: center;
-          z-index: 0;
-          border-radius: 40px;
-          box-shadow: 5px 5px 10px #000910, -5px -5px 10px #002340;
-        }
-        .button {
-          background-color: #789bc3;
-          color: white;
-          padding: 20px 30px;
-          border-radius: 15px;
-          width: 300px;
-          margin: auto auto;
-          font-style: bold;
-          text-decoration: none;
-          font-size: 20px;
+          color: black;
         }
       `}</style>
       <style jsx global>{`
@@ -67,6 +25,8 @@ const Voomo = () => {
         body {
           padding: 0;
           margin: 0;
+          width: 100vw;
+          overflow-x: hidden;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

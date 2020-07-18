@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/header";
-import ContentCard from "../components/contentCard";
+import SocialButtons from "../components/social";
+
 import LandingBanner from "../components/landingBanner";
 
 export default function Home() {
@@ -15,9 +16,8 @@ export default function Home() {
       <body>
         <Header />
         <LandingBanner />
-        <ContentCard />
+        <SocialButtons />
       </body>
-
       <style jsx global>{`
         html,
         body {
