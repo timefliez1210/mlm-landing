@@ -47,7 +47,7 @@ const SocialButtons = () => {
           border-radius: 50%;
 
           font-size: 40px;
-          color: white;
+          color: #c90859;
           display: flex;
           align-content: center center;
           justify-content: center;
