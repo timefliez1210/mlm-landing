@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Header from "../components/header";
-import SocialButtons from "../components/social";
+import VoomoCard from "../components/voomoCard";
 
 const Voomo = () => {
   return (
@@ -10,32 +9,8 @@ const Voomo = () => {
           Voomo - The Smart Contract which has the power to change your life.
         </title>
       </Head>
-      <body>
-        <Header />
-        <h1>Hallo von Voomo!</h1>
-        <SocialButtons />
-      </body>
-      <style jsx>{`
-        h1 {
-          color: black;
-        }
-      `}</style>
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          width: 100vw;
-          overflow-x: hidden;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
 
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+      <VoomoCard />
     </div>
   );
 };

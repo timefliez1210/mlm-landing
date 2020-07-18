@@ -31,7 +31,7 @@ const SocialButtons = () => {
         .button-holder {
           position: fixed;
           bottom: 0px;
-          left: 0px;
+
           width: 100vw;
           min-width: 250px;
           min-height: 100px;

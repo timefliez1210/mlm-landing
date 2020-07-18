@@ -15,7 +15,7 @@ const LandingBanner = () => {
         <p>
           * you can always unsubscribe my newsletter
           <br />
-          No hard feelings, no problem!
+          no hard feelings, no problem!
         </p>
       </div>
       <style jsx>{`
