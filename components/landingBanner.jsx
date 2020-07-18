@@ -23,6 +23,7 @@ const LandingBanner = () => {
           color: white;
           border-radius: 10px;
           text-align: center;
+          box-shadow: 11px 11px 22px black;
         }
         .divider {
           height: 3px;

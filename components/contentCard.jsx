@@ -191,10 +191,10 @@ const ContentCard = () => {
 
             <a
               className="button"
-              href="https://app.voomo.io/a/42/"
+              href="https://metamask.io/"
               target="_blank"
               rel="noopener noreferrer"
-              title=""
+              title="Metamask Desktop / Laptop Wallet"
             >
               <b> Metamask</b>
             </a>
@@ -204,10 +204,10 @@ const ContentCard = () => {
             <br />
             <a
               className="button"
-              href="https://app.voomo.io/a/42/"
+              href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              title=""
+              title="Trust Wallet for Android Devices"
             >
               <b>Trust Wallet</b>
             </a>
@@ -217,10 +217,10 @@ const ContentCard = () => {
             <br />
             <a
               className="button"
-              href="https://app.voomo.io/a/42/"
+              href="https://apps.apple.com/us/app/coinbase-wallet/id1278383455"
               target="_blank"
               rel="noopener noreferrer"
-              title=""
+              title="Coinbase Wallet for iOS Devices"
             >
               <b> Coinbase Wallet</b>
             </a>
@@ -251,23 +251,58 @@ const ContentCard = () => {
             <h2>And let's get started!</h2>
             <div className="divider"></div>
             <p>
-              In case you already had your first experiences with
-              cryptocurrencies and the blockchain itself, especially if you know
-              how so called DApp Browsers work, you should click here to skip
-              the introduction to them and directly start with the real deal!
+              So now that you (hopefully) bought your first Ether and
+              transferred it into your wallet with the DApp browser, we can
+              start interacting with our first smart contract that can earn
+              money. All you have to do is, if you are on Metamask at your
+              Laptop or PC, click the nice button below. If you are not on your
+              Laptop or PC you have to copy and paste this link into the DApp
+              Browser of your Wallet:
+              <br />
+              <br />
+              <a
+                href="https://app.voomo.io/a/42/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="The Smartcontract that will earn you money"
+              >
+                <b>https://app.voomo.io/a/42/</b>
+              </a>
+              <br />
+              <br /> <br />
+              <br />
+              <a
+                className="button"
+                href="https://app.voomo.io/a/42/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="The Smartcontract that will earn you money"
+              >
+                <b>Register</b>
+              </a>
+              <br />
+              <br /> <br />
+              <br />
+              Both methods will open you a window with a big blue button “login
+              automatically” (if the button is missing, refresh the site until
+              it's there AND make sure that you are actually in your DApp
+              browser, it won’t work otherwise). After that you will see the
+              register now (same as above), after clicking this one, you will
+              have to confirm the transaction of approximate 0.13 Ether (if it’s
+              more I would wait a few minutes and try it again, the network fees
+              vary). After approving the transaction you are done! Welcome to
+              the first step to your passive income!
+              <br />
+              <br />
+              <b>
+                <u>
+                  Go ahead and read now how exactly you will earn from this
+                  contract!
+                </u>
+              </b>
             </p>
             <br />
             <br />
-
-            <a
-              className="button"
-              href="https://app.voomo.io/a/42/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="The Smartcontract that will earn you money"
-            >
-              <b>Register</b>
-            </a>
           </div>
         </div>
       </section>
@@ -329,6 +364,11 @@ const ContentCard = () => {
           background: #c90859;
           color: black;
           font-size: 18px;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
         }
       `}</style>
     </div>

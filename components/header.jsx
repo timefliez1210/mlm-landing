@@ -4,7 +4,7 @@ const Header = () => {
       <section className="header"></section>
       <style jsx>{`
         .header {
-          height: 100vh;
+          height: 110vh;
           width: 100vw;
           position: fixed;
           background-position: center center;
