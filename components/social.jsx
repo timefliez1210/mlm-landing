@@ -11,19 +11,37 @@ const SocialButtons = () => {
     <div>
       <div className="button-holder">
         <Link href="/introduction">
-          <a title="" className="buttons">
+          <a
+            title="Introduction to Ethereum and Smart Contracts"
+            className="buttons"
+          >
             <FaEthereum />
           </a>
         </Link>
         <Link href="/voomo">
-          <a title="" className="buttons">
+          <a
+            title="Introduction to our very first Smart Contract - Voomo"
+            className="buttons"
+          >
             <FaMoneyBillWave />
           </a>
         </Link>
-        <a href="" title="" rel="noopener noreferrer" className="buttons">
+        <a
+          href="https://t.me/joinchat/JfZZgholJ8nSMuYh1gPfWw"
+          title="My Telegram Group to answer your questions"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="buttons"
+        >
           <FaTelegramPlane />
         </a>
-        <a href="" title="" rel="noopener noreferrer" className="buttons">
+        <a
+          href="https://www.facebook.com/rob.clemens.58152"
+          title="My Facebook Profile"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="buttons"
+        >
           <FaFacebook />
         </a>
       </div>

@@ -215,7 +215,7 @@ const VoomoCard = () => {
               <Link href="/introduction#from-voomo">
                 <a
                   className="button"
-                  title="The Smartcontract that will earn you money"
+                  title="How to Join Voomo and earn your piece"
                 >
                   <b>Introduction</b>
                 </a>

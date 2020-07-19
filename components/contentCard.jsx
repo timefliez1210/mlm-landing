@@ -129,7 +129,10 @@ const ContentCard = () => {
             <br />
             <br />
             <Link href="/voomo">
-              <a className="button">
+              <a
+                className="button"
+                title="Voomo - the Smart Contract working for everybody"
+              >
                 <b>Direct Start</b>
               </a>
             </Link>
@@ -336,7 +339,7 @@ const ContentCard = () => {
                 href="https://app.voomo.io/a/42/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="The Smartcontract that will earn you money"
+                title="The Smart Contract that will earn you money"
               >
                 <b>https://app.voomo.io/a/42/</b>
               </a>
@@ -348,7 +351,7 @@ const ContentCard = () => {
                 href="https://app.voomo.io/a/42/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="The Smartcontract that will earn you money"
+                title="The Smart Contract that will earn you money"
               >
                 <b>Register</b>
               </a>
@@ -378,7 +381,7 @@ const ContentCard = () => {
               <Link href="/voomo">
                 <a
                   className="button"
-                  title="External Link to Coinbase Exchange"
+                  title="Introduction to your opportunity to earn online"
                 >
                   <b>How to earn in voomo</b>
                 </a>

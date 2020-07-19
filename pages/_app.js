@@ -1,9 +1,11 @@
 import Header from "../components/header";
 import SocialButtons from "../components/social";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
+      <Head></Head>
       <body>
         <Header />
         <Component {...pageProps} />

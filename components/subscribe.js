@@ -77,7 +77,10 @@ class Mailchimp extends React.Component {
                 <br />
                 <br />
                 <Link href="/voomo">
-                  <a title="safe income - forever" className="button">
+                  <a
+                    title="safe income - forever sponosred by Voomo"
+                    className="button"
+                  >
                     Let's go!
                   </a>
                 </Link>
