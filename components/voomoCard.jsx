@@ -142,9 +142,10 @@ const VoomoCard = () => {
               piece of money and definitely more than she originally invested.
               <br />
               Nevertheless this isn’t everything. Everybody who joins my team
-              will have the choice to get a free marketing funnel or 3
-              referrals, simply use the telegram link provided below and join my
-              group, ask for me and we will take care of everything.
+              will have the choice to get a free marketing funnel (limited time
+              offer, only for the first 100 people) or 3 referrals, simply use
+              the telegram link provided below and join my group, ask for me and
+              we will take care of everything.
               <br />
               Ah and by the way:
               <br />
