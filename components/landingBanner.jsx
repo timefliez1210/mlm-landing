@@ -34,7 +34,7 @@ const LandingBanner = () => {
         @media only screen and (max-width: 800px) {
           .content {
             padding: 10px 0;
-            margin: 10vh auto;
+            margin: auto auto;
           }
         }
         .divider {
