@@ -318,6 +318,12 @@ const VoomoCard = () => {
           color: white;
           border-radius: 10px;
         }
+        @media only screen and (max-width: 800px) {
+          .content {
+            padding: 10px 0;
+            margin: auto auto;
+          }
+        }
         .divider {
           height: 3px;
           width: 40%;
