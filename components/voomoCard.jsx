@@ -21,22 +21,46 @@ const VoomoCard = () => {
             </h2>
             <div className="divider"></div>
             <p>
-              Last year was a normal year, most people had a permanent job,
-              worked “9-to-5”, came home, paid the bills and were happy if
-              something was left over. Many dreamed of an independent life,
-              independent of location and in a modern way, but never put it into
-              practice.
+              The hard truth which nobody tells you: collecting a paycheck is
+              one of the worst things you can do on your way to total
+              independence. Collecting a paycheck means that you are always
+              dependent on someone else and you will always get paid what others
+              think is fair, but never what you are truly worth. <br />
+              <br />
+              Changing your path into entrepreneurship might be scary, but if
+              you want real success in this world, you have to go for the jump.
+              <br />
+              <br />
+              But don't worry, if you follow me I can help you slide smoothly
+              into it!
+              <br />
+              And here we go:
             </p>
             <h2>Voomo gives us amazing 4 ways to earn</h2>
             <div className="divider"></div>
             <p>
-              The current situation shows us that the system that we are taught
-              from an early age has its limits, we are forced to either endure
-              and persevere or finally to exhaust the possibilities that our
-              time gives us, believe it or not, it are more than enough people
-              who still make their money the easiest way regardless of covid-19.
+              Our first step will be a brand new Smart Contract called Voomo and
+              what Voomo gives us is simply amazing. No matter the reason you
+              want to join, you have an opportunity for a scalable income or
+              simply just some passive earning, you will have both here. Due to
+              its unique Team Builder Matrix System this is the perfect entry
+              for people with or without any experience in networking. <br />
+              <br />
+              You can earn by directly referring people and start building your
+              network, you can earn money from my invites directly spilled into
+              your X4 Matrix system, and if this is not enough yet you can even
+              earn, without doing anything and without any luck. The Team
+              Builder Automatic System allows everybody to earn their piece,
+              simply by wrapping up the 0.13 Ether fee to join the network.{" "}
               <br />
               <br />
+              So what are you waiting for? Take your chance and your first step
+              into Entrepreneurship, there are plenty of ways for you to make
+              money here, you just have to take action!
+              <br />
+              <br />
+              Please don't be shy and join my Telegram, you can find the link
+              below, if you have any questions!
             </p>
           </div>
         </div>
@@ -110,13 +134,21 @@ const VoomoCard = () => {
             <h2>Earn your passive income, no matter what</h2>
             <div className="divider"></div>
             <p>
-              So now that you (hopefully) bought your first Ether and
-              transferred it into your wallet with the DApp browser, we can
-              start interacting with our first smart contract that can earn
-              money. All you have to do is, if you are on Metamask at your
-              Laptop or PC, click the nice button below. If you are not on your
-              Laptop or PC you have to copy and paste this link into the DApp
-              Browser of your Wallet:
+              What you see here is a picture of one of my Team Members, she
+              literally joined and went to bed one day, after she woke up she
+              came to me and was full of joy that she already earned a solid
+              piece of money and definitely more than she originally invested.
+              <br />
+              Nevertheless this isn’t everything. Everybody who joins my team
+              will have the choice to get a free marketing funnel or 3
+              referrals, simply use the telegram link provided below and join my
+              group, ask for me and we will take care of everything.
+              <br />
+              Ah and by the way:
+              <br />
+              You are invited to join the Telegram even before you register, in
+              case you have any further questions! So don’t be shy, I want you
+              to feel comfortable.
               <br />
               <br />
             </p>
@@ -132,15 +164,19 @@ const VoomoCard = () => {
             </h2>
             <div className="divider"></div>
             <p>
-              So now that you (hopefully) bought your first Ether and
-              transferred it into your wallet with the DApp browser, we can
-              start interacting with our first smart contract that can earn
-              money. All you have to do is, if you are on Metamask at your
-              Laptop or PC, click the nice button below. If you are not on your
-              Laptop or PC you have to copy and paste this link into the DApp
-              Browser of your Wallet:
+              This is what makes us different from any other similar plattform
+              and the reason why 0.13 Ether is nothing. The Automatic Team
+              Builder Matrix takes away the luck component which you had in
+              other matrix based Smart Contracts and gives you a guarantee, that
+              as long as you join a good working team with active members, to
+              earn. No I am not kidding. You will get 100% spills from my work
+              and other active team members, so you can earn money, without us
+              losing any - a classical win-win for everybody.
               <br />
               <br />
+              Of course I would be happy, if you at least tell your friends, but
+              no hard feelings if you don’t. Just lean back and enjoy the Ether
+              coming to you, day after day after...
             </p>
           </div>
         </div>
@@ -202,7 +238,6 @@ const VoomoCard = () => {
               width="90%"
               height="315"
               src="https://www.youtube.com/embed/-U8DdDy4Zdw"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
