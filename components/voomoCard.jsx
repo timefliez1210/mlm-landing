@@ -1,18 +1,23 @@
+import Link from "next/link";
+import CustomForm from "./newsletter";
+
 const VoomoCard = () => {
   return (
     <div>
       <section className="content" id="content">
-        <h1>Voomo - The Smart Contract</h1>
-        <h2>Designed from the Community for the Community</h2>
-        <div className="divider"></div>
+        <div className="card2">
+          <h1>Voomo - The Smart Contract</h1>
+          <h2>Designed from the Community for the Community</h2>
+          <div className="divider"></div>
+        </div>
         <div className="card">
           <div>
-            <img width="90%" src="./assets/img/covid-19-changes.png" />
+            <img width="90%" src="./assets/img/voomo-income.jpg" />
           </div>
           <div>
             <h2>
-              The year 2020, covid-19 and how they (should) change our view of
-              the world.
+              If you collect a paycheck, you are an employee. Entrepeneurs
+              decide their income on their own.
             </h2>
             <div className="divider"></div>
             <p>
@@ -22,7 +27,7 @@ const VoomoCard = () => {
               independent of location and in a modern way, but never put it into
               practice.
             </p>
-            <h2>But what is happening at the moment?</h2>
+            <h2>Voomo gives us amazing 4 ways to earn</h2>
             <div className="divider"></div>
             <p>
               The current situation shows us that the system that we are taught
@@ -30,10 +35,64 @@ const VoomoCard = () => {
               and persevere or finally to exhaust the possibilities that our
               time gives us, believe it or not, it are more than enough people
               who still make their money the easiest way regardless of covid-19.
+              <br />
+              <br />
             </p>
           </div>
         </div>
-
+        <div className="card">
+          <div>
+            <img
+              width="90%"
+              src="./assets/img/voomo-makes-you-independant.jpg"
+            />
+          </div>
+          <div>
+            <h2>Register now and get controll over your income</h2>
+            <div className="divider"></div>
+            <div>
+              <p>
+                <h3>For your DApp browser:</h3>
+                <br />
+                <br /> <br />
+                <br />
+                <a
+                  href="https://app.voomo.io/a/42/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="The Smartcontract that will earn you money"
+                >
+                  <b>https://app.voomo.io/a/42/</b>
+                </a>
+                <br />
+                <br /> <br />
+                <br />
+                <b>
+                  <u>
+                    You don't have any idea what a DApp browser is? Or how to
+                    purchase Ether? No problem! I've got you covered!
+                  </u>
+                </b>
+                <br />
+                <br /> <br />
+                <br />
+                <Link href="/introduction#from-voomo">
+                  <a
+                    className="button"
+                    title="The Smartcontract that will earn you money"
+                  >
+                    <b>Introduction</b>
+                  </a>
+                </Link>
+                <br />
+                <br /> <br />
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="content">
         <div className="card2">
           <h1>
             Your chance to work independantly or to create a passive income
@@ -42,10 +101,13 @@ const VoomoCard = () => {
         </div>
         <div className="card" id="letsgo">
           <div>
-            <img width="90%" src="./assets/img/risk_free.jpg" />
+            <img
+              width="90%"
+              src="./assets/img/voomo-earning-without-invite.jpg"
+            />
           </div>
           <div>
-            <h2>And let's get started!</h2>
+            <h2>Earn your passive income, no matter what</h2>
             <div className="divider"></div>
             <p>
               So now that you (hopefully) bought your first Ether and
@@ -56,6 +118,119 @@ const VoomoCard = () => {
               Laptop or PC you have to copy and paste this link into the DApp
               Browser of your Wallet:
               <br />
+              <br />
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img width="90%" src="./assets/img/voomo-automatic-system.jpg" />
+          </div>
+          <div>
+            <h2>
+              The Automatic System - Designed for people who join good teams
+            </h2>
+            <div className="divider"></div>
+            <p>
+              So now that you (hopefully) bought your first Ether and
+              transferred it into your wallet with the DApp browser, we can
+              start interacting with our first smart contract that can earn
+              money. All you have to do is, if you are on Metamask at your
+              Laptop or PC, click the nice button below. If you are not on your
+              Laptop or PC you have to copy and paste this link into the DApp
+              Browser of your Wallet:
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img width="90%" src="./assets/img/decentralized_project.jpg" />
+          </div>
+          <div>
+            <h2>Simply start earning Ether, day after day</h2>
+            <div className="divider"></div>
+            <h3>For your DApp browser:</h3>
+            <br /> <br />
+            <p>
+              <a
+                href="https://app.voomo.io/a/42/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="The Smartcontract that will earn you money"
+              >
+                <b>https://app.voomo.io/a/42/</b>
+              </a>
+              <br />
+              <br /> <br />
+              <br />
+              <b>
+                <u>
+                  You don't have any idea what a DApp browser is? Or how to
+                  purchase Ether? No problem! I've got you covered!
+                </u>
+              </b>
+              <br />
+              <br /> <br />
+              <br />
+              <Link href="/introduction#from-voomo">
+                <a
+                  className="button"
+                  title="The Smartcontract that will earn you money"
+                >
+                  <b>Introduction</b>
+                </a>
+              </Link>
+              <br />
+              <br /> <br />
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="content">
+        <div className="card2">
+          <h1>You want some in depth information?</h1>
+          <div className="divider"></div>
+        </div>
+        <div className="card" id="letsgo">
+          <div>
+            <iframe
+              width="90%"
+              height="315"
+              src="https://www.youtube.com/embed/-U8DdDy4Zdw"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <h2>We've got you a video and in case you prefer reading</h2>
+            <div className="divider"></div>
+            <p>
+              You can get the business presentation as a PDF right here:
+              <br />
+              <br /> <br />
+              <br />
+              <Link href="/assets/media/voomo-presentation.pdf">
+                <a
+                  className="button"
+                  target="_blank"
+                  title="Voomo presentation PDF"
+                >
+                  <b>Get PDF</b>
+                </a>
+              </Link>
+              <br />
+              <br /> <br />
+              <br />
+              <h3>For your DApp browser:</h3>
+              <div className="divider"></div>
+              <br />
+              <br /> <br />
               <br />
               <a
                 href="https://app.voomo.io/a/42/"
@@ -80,27 +255,18 @@ const VoomoCard = () => {
               <br />
               <br /> <br />
               <br />
-              Both methods will open you a window with a big blue button “login
-              automatically” (if the button is missing, refresh the site until
-              it's there AND make sure that you are actually in your DApp
-              browser, it won’t work otherwise). After that you will see the
-              register now (same as above), after clicking this one, you will
-              have to confirm the transaction of approximate 0.13 Ether (if it’s
-              more I would wait a few minutes and try it again, the network fees
-              vary). After approving the transaction you are done! Welcome to
-              the first step to your passive income!
-              <br />
-              <br />
-              <b>
-                <u>
-                  Go ahead and read now how exactly you will earn from this
-                  contract!
-                </u>
-              </b>
             </p>
-            <br />
-            <br />
           </div>
+        </div>
+      </section>
+      <section className="content">
+        <div className="card2">
+          <h1>And don't forget to subscribe to me Newsletter</h1>
+          <h2>Too always stay up to date with new possibilities!</h2>
+          <div className="divider"></div>
+        </div>
+        <div className="card2">
+          <CustomForm />
         </div>
       </section>
       <style jsx>{`
@@ -173,3 +339,7 @@ const VoomoCard = () => {
 };
 
 export default VoomoCard;
+
+{
+  /*  */
+}

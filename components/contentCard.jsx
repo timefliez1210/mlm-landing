@@ -1,3 +1,6 @@
+import CustomForm from "./newsletter";
+import Link from "next/link";
+
 const ContentCard = () => {
   return (
     <div>
@@ -27,8 +30,9 @@ const ContentCard = () => {
               The current situation shows us that the system that we are taught
               from an early age has its limits, we are forced to either endure
               and persevere or finally to exhaust the possibilities that our
-              time gives us, believe it or not, it are more than enough people
-              who still make their money the easiest way regardless of covid-19.
+              time gives us, believe it or not, there are more than enough
+              people who still make their money, the easiest way regardless of
+              covid-19.
             </p>
           </div>
         </div>
@@ -46,30 +50,14 @@ const ContentCard = () => {
             step-by-step how you can achieve this too.
           </p>
         </div>
-        <div className="card">
-          <div className="display-image2">
-            <img src="./assets/img/ethereum.jpg" width="90%" />
-          </div>
-          <div>
-            <h2>How to start:</h2>
-            <div className="divider"></div>
-            <p>
-              Last year was a normal year, most people had a permanent job,
-              worked “9-to-5”, came home, paid the bills and were happy if
-              something was left over. Many dreamed of an independent life,
-              independent of location and in a modern way, but never put it into
-              practice.
-            </p>
-            <h2>The exciting new world</h2>
-            <div className="divider"></div>
-            <p>
-              The current situation shows us that the system that we are taught
-              from an early age has its limits, we are forced to either endure
-              and persevere or finally to exhaust the possibilities that our
-              time gives us, believe it or not, it are more than enough people
-              who still make their money the easiest way regardless of covid-19.
-            </p>
-          </div>
+        <div className="card2">
+          <h3>Subscribe</h3>
+          <div className="divider"></div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <CustomForm />
         </div>
         <div className="card2">
           <h1>
@@ -123,7 +111,7 @@ const ContentCard = () => {
           <div>
             <img width="90%" src="./assets/img/what-is-ether.png" />
           </div>
-          <div>
+          <div id="from-voomo">
             <h2>So how do we start?</h2>
             <div className="divider"></div>
             <p>
@@ -300,10 +288,31 @@ const ContentCard = () => {
                   contract!
                 </u>
               </b>
+              <br />
+              <br /> <br />
+              <br />
+              <Link href="/voomo">
+                <a
+                  className="button"
+                  title="External Link to Coinbase Exchange"
+                >
+                  <b>How to earn in voomo</b>
+                </a>
+              </Link>
             </p>
             <br />
             <br />
           </div>
+        </div>
+      </section>
+      <section className="content">
+        <div className="card2">
+          <h1>And don't forget to subscribe to me Newsletter</h1>
+          <h2>Too always stay up to date with new possibilities!</h2>
+          <div className="divider"></div>
+        </div>
+        <div className="card2">
+          <CustomForm />
         </div>
       </section>
       <style jsx>{`
