@@ -36,6 +36,8 @@ const VoomoCard = () => {
               <br />
               And here we go:
             </p>
+            <br />
+            <br />
             <h2>Voomo gives us amazing 4 ways to earn</h2>
             <div className="divider"></div>
             <p>

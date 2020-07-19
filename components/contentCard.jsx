@@ -128,10 +128,11 @@ const ContentCard = () => {
             </p>
             <br />
             <br />
-
-            <a className="button" href="#letsgo">
-              <b>Direct Start</b>
-            </a>
+            <Link href="/voomo">
+              <a className="button">
+                <b>Direct Start</b>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="card">
@@ -142,10 +143,41 @@ const ContentCard = () => {
             <h2>How to buy crypto?</h2>
             <div className="divider"></div>
             <p>
-              In case you already had your first experiences with
-              cryptocurrencies and the blockchain itself, especially if you know
-              how so called DApp Browsers work, you should click here to skip
-              the introduction to them and directly start with the real deal!
+              <b>
+                If you have any questions please don't be shy and use the link
+                below which will send you directly into my Telegram group. I
+                will be very happy to assist you on your journey.
+              </b>
+              <br />
+              <br />
+              But now: Let's get started: <br />
+              <br />
+              Your first challenge is always to interact with a new technology
+              and get some experience with it. So we will start here very simply
+              by buying your first cryptocurrency and to do that you need a
+              provider which sells you even that and of course I have some of
+              them here for you! If you are using an android device or a PC /
+              Laptop you can directly go into the next section, since Metamask
+              and Trustwallet are both connected to very trustworthy payment
+              providers, which make it very simple for you.
+              <br />
+              <br /> If you are using an iPhone / iOS device you have a little
+              handicap here, but nothing to worry! You only have to make
+              yourself an account at Coinbase (one of the largest Crypto
+              Exchanges in the world, licensed in wastely the majority of the
+              world) or crypto.com, a bank like cryptocurrency platform which
+              offers huge benefits to their clients (like high interest rates on
+              deposits or an own prepaid / debit Visa card with cashback system.
+              Cryotp.com is licensed too in most countries of the world.) and
+              buy it there. Simply follow the link below and make yourself an
+              account.
+              <br />
+              <br />
+              <b>
+                Please keep in mind that you should at least purchase 0.13 Ether
+                so you can follow up with our first Smart Contract we are going
+                to interact with!
+              </b>
             </p>
             <br />
             <br />
@@ -159,6 +191,19 @@ const ContentCard = () => {
             >
               <b>Coinbase Exchange</b>
             </a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <a
+              className="button"
+              href="https://platinum.crypto.com/r/adun66mfqw"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="External Link to crypto[dot]com"
+            >
+              <b>Crypto.com</b>
+            </a>
           </div>
         </div>
         <div className="card">
@@ -169,10 +214,36 @@ const ContentCard = () => {
             <h2>Your wallet - your money</h2>
             <div className="divider"></div>
             <p>
-              In case you already had your first experiences with
-              cryptocurrencies and the blockchain itself, especially if you know
-              how so called DApp Browsers work, you should click here to skip
-              the introduction to them and directly start with the real deal!
+              This step makes sure you have a wallet with a DApp browser. This
+              is important since the DApp browser gives us the possibility to
+              interact with Smart Contracts in a very convenient way. I listed
+              out 3 possibilities for you. <br />
+              <br />
+              1. Trust Wallet for Android Devices (in-App Ether purchases
+              possible)
+              <br /> <br />
+              2. Coinbase Wallet ( not Exchange like above, this is a different
+              app from the same provider) for iOS (in-App Ether purchases not
+              possible)
+              <br /> <br />
+              3. And Metamask, my favorit, for PC and Laptop. Their mobile
+              version is still a beta version and doesn’t work well for now so
+              only use it if you are a PC / Laptop guy like me. (in-App Ether
+              purchases possible)
+              <br />
+              <br />
+              Depending on your device you only have to click one of the links
+              and download the right app. <br />
+              <br />
+              <b>Important Note:</b>
+              <br />
+              <br /> While you are opening your account in one of these Apps it
+              will ask you to store your 12 words seed phrase. Please take this
+              very seriously. The crypto you load up to your wallet is stored on
+              your device, so if you lose your device your money's gone and the
+              only way to get it back is with that phrase. So please store it in
+              a safe way, preferable on a piece of paper and NEVER share it to
+              anyone.
             </p>
             <br />
             <br />
@@ -222,10 +293,23 @@ const ContentCard = () => {
             <h2>The DApp Browser</h2>
             <div className="divider"></div>
             <p>
-              In case you already had your first experiences with
-              cryptocurrencies and the blockchain itself, especially if you know
-              how so called DApp Browsers work, you should click here to skip
-              the introduction to them and directly start with the real deal!
+              Now that you have purchased Ether and opened a wallet with a DApp
+              browser you need to transfer your Ether from your exchange to your
+              wallet. This works similar to a bank transfer. You have to get
+              your Ether address from your wallet, go to your exchange and look
+              for the option like “send ether to the external wallet”. Then
+              paste in your ether address from your wallet and confirm the
+              transaction. You will see here that every transaction on the
+              blockchain is connected to a small fee, which we call “Gas fee”.
+              Since the blockchain itself has to be mined so it is immutable
+              this is something we have to accept.
+              <br />
+              <br /> But believe me, you won’t mind this small fee after
+              following me how to earn with this awesome technology. After a few
+              seconds the Ether should arrive in your wallet and you are all set
+              to earn!
+              <br />
+              <br />
             </p>
             <br />
             <br />
