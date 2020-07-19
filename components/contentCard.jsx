@@ -9,7 +9,7 @@ const ContentCard = () => {
         <div className="divider"></div>
         <div className="card">
           <div>
-            <img width="90%" src="./assets/img/covid-19-changes.png" />
+            <img width="90%" src="./assets/img/covid-19-changes.jpg" />
           </div>
           <div>
             <h2>
@@ -416,7 +416,7 @@ const ContentCard = () => {
         @media only screen and (max-width: 800px) {
           .content {
             padding: 10px 0;
-            margin: auto auto;
+            margin: 10vh auto;
           }
         }
         .divider {
